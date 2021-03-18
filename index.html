@@ -1,0 +1,132 @@
+<!--
+Add your comment here
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <!---- The page has a Credit card fraud detection-->
+
+        <title>Credit Card Fraud Detection</title>
+        <link rel="shortcut icon" href="./img/Cred.png" type="image/png" >
+
+
+        <link  href="index.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+
+    <!--header-->
+
+    <body>
+
+        <!--Main Navigation-->
+
+
+
+        <div id="background-image"> </div>
+        <div class="header">
+            <div class="inner-header">
+                <div class="logo"><a href="#">Welcome!</a></div>
+                <div class="header-link"><a href="#signup">Sign Up</a> </div>
+                <div class="header-link"><a href="#login">Log In</a> </div>
+            </div>
+        </div>
+
+
+        <div class="content">
+            <div class="banner-image">
+                <div class="inner-banner-image">
+                    <center>
+                        <div class="banner_content">
+                            <h1>Credit Card Fraud Detection</h1>
+                            <p>Enter your card details here</p>
+                            <a href="newpage.php" target="_blank">
+
+                                <center>
+                                    <input class="button" type="button" value="Click Here">
+                                </center>
+                            </a>
+                        </div>
+                    </center>
+                </div>
+            </div>
+
+        </div>
+
+        <br><br>  <br><br>  <br><br>
+
+        <!--Login-->
+        <div id="login">
+
+            <form action="action_page.php" method="post">
+                <h2 style="text-align:center">Log In</h2>
+
+
+                <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit">Log In</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                </div>
+
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+            </form>
+        </div>
+
+
+        <br><br>  <br><br>   <br><br>
+
+        <!--Sign up-->
+
+        <div id="signup">
+
+            <form action="action_page.php" method="post">
+                <h2 style="text-align:center">Sign Up</h2>
+
+
+                <div class="container">
+
+                    <label for="uname"><b>Your Name</b></label>
+                    <input type="text" placeholder="Enter your name" name="uname" required>
+
+                    <label for="uname"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="uname" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit">Sign Up</button>
+
+                </div>
+
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" class="cancelbtn">Cancel</button>
+
+                </div>
+            </form>
+        </div>
+
+
+
+
+
+
+        <!--footer-->
+
+        <footer class="footer">
+            Copyright&copy; Credit Card Fraud Detection. All Rights Reserved | Contact Us: +91 7841854299
+        </footer>
+
+
+
+    </body>
+</html>
